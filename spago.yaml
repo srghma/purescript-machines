@@ -1,0 +1,26 @@
+package:
+  name: machines
+  publish:
+    license: MIT
+    version: 7.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-machines
+  dependencies:
+    - arrays
+    - control
+    - effect
+    - lists
+    - maybe
+    - prelude
+    - profunctor
+    - tuples
+    - unfoldable
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
